@@ -273,6 +273,7 @@ FLOWS = [
     "twinkly",
     "unifi",
     "upb",
+    "upc_connect",
     "upcloud",
     "upnp",
     "velbus",

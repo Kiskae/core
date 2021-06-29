@@ -1,8 +1,16 @@
 {
   "domain": "upc_connect",
   "name": "UPC Connect Box",
+  "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/upc_connect",
-  "requirements": ["connect-box==0.2.8"],
-  "codeowners": ["@pvizeli", "@fabaff"],
-  "iot_class": "local_polling"
+  "requirements": ["git+https://github.com/Kiskae/python-connect-box.git@add_system_info#connect-box==0.3.0"],
+  "codeowners": ["@pvizeli", "@fabaff", "@Kiskae"],
+  "iot_class": "local_polling",
+  "ssdp": [
+    {
+      "deviceType": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+      "manufacturer": "Compal Broadband Networks, Inc",
+      "modelName": "CH7465LG"
+    }
+  ]
 }

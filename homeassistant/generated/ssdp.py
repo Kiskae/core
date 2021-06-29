@@ -198,6 +198,13 @@ SSDP = {
             "modelDescription": "UniFi Dream Machine Pro"
         }
     ],
+    "upc_connect": [
+        {
+            "deviceType": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+            "manufacturer": "Compal Broadband Networks, Inc",
+            "modelNumber": "CH7465LG"
+        }
+    ],
     "upnp": [
         {
             "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1"
